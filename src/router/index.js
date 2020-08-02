@@ -101,6 +101,21 @@ export default new Router({
                     path: '/donate',
                     component: () => import(/* webpackChunkName: "donate" */ '../components/page/Donate.vue'),
                     meta: { title: '支持作者' }
+                },
+                {
+                    path: '/UserTable',
+                    component: () => import(/* webpackChunkName: "form" */ '../components/page/cooper/UserTable.vue'),
+                    meta: { title: '用户管理' }
+                },
+                {
+                    path: '/cooperCodeTable',
+                    component: () => import(/* webpackChunkName: "form" */ '../components/page/cooper/CooperCodeTable.vue'),
+                    meta: { title: '库博字典' }
+                },
+                {
+                    path: '/classTable',
+                    component: () => import(/* webpackChunkName: "form" */ '../components/page/cooper/ClassTable.vue'),
+                    meta: { title: '课程管理' }
                 }
             ]
         },

@@ -61,7 +61,7 @@ export default {
                     index: 'dashboard',
                     title: '系统首页'
                 },
-                {
+    /*            {
                     icon: 'el-icon-lx-cascades',
                     index: 'table',
                     title: '基础表格'
@@ -70,8 +70,27 @@ export default {
                     icon: 'el-icon-lx-copy',
                     index: 'tabs',
                     title: 'tab选项卡'
-                },
+                },*/
                 {
+                    icon: 'el-icon-lx-calendar',
+                    index: 'cooper',
+                    title: 'cooper',
+                    subs: [
+                        {
+                            index: 'UserTable',
+                            title: '用户管理'
+                        },
+                        {
+                            index: 'cooperCodeTable',
+                            title: '库博字典'
+                        },
+                        {
+                            index: 'classTable',
+                            title: '课程管理'
+                        }
+                    ]
+                },
+            /*    {
                     icon: 'el-icon-lx-calendar',
                     index: '3',
                     title: '表单相关',
@@ -149,7 +168,7 @@ export default {
                     icon: 'el-icon-lx-redpacket_fill',
                     index: '/donate',
                     title: '支持作者'
-                }
+                }*/
             ]
         };
     },
